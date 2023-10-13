@@ -5,9 +5,8 @@ function palindrome(str){
 	for(let i = 0; i<s.length/2; i++){
 		if(s[i] !== s[s.length-1-i]){
 			return false;
-		}else{
-			return true;
 		}
 	}
+	return true;
 }
 module.exports = palindrome
